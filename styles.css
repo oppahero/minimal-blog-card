@@ -17,7 +17,7 @@ body{
     font-size: 1.125rem;
     font-weight: bold;
     color: #20293A;
-    margin-bottom: 10px ;
+    margin-bottom: 6px ;
 }
 
 .card-text-body{
@@ -28,7 +28,7 @@ body{
 
 .card-tag{
     position: relative;
-    height: 20px;
+    height: 16px;
     margin-bottom: 21px 0;
     color: var(--textcolor-tag);
     font-size: 0.625rem;
@@ -38,7 +38,7 @@ body{
 .tag{
     position: absolute;
     bottom: 0;
-    padding: 5px 17px;
+    padding: 4px 16px;
     border-radius: 20px;
     background-color: #E6D6FC;
 }
@@ -52,14 +52,14 @@ body{
 .image{
     height: 152px;
     border-radius: 15px;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
     background: center / cover no-repeat url('assets/cactus_img.jpg');
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 370px;
+    width: 368px;
     height: 392px;
     margin: 165px auto;
     border-radius: 15px;
@@ -72,9 +72,9 @@ body{
 }
 
 .card-body{
-    padding: 17px ;
+    padding: 16px 16px 20px 16px;
 }
 
 .card-footer{
-    padding: 22px 17px;
+    padding: 20px 16px;
 }
